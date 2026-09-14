@@ -1,0 +1,39 @@
+{
+  "name": "crml-ui-react",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Tactile Neubrutalism, Y2K Cyber Mecha & Streetwear Design System for React",
+  "main": "./dist/crml-ui-react.umd.cjs",
+  "module": "./dist/crml-ui-react.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/crml-ui-react.js",
+      "require": "./dist/crml-ui-react.umd.cjs"
+    },
+    "./style.css": "./dist/style.css"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.2",
+    "vite-plugin-dts": "^4.1.1"
+  }
+}
