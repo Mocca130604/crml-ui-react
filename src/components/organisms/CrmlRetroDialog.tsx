@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../crml-react.css'
+import '../crml-react.css'
 
 export interface CrmlRetroDialogProps extends React.HTMLAttributes<HTMLDivElement> {
   variant?: 'lime' | 'pink' | 'cyan' | 'yellow' | 'primary' | 'danger' | 'secondary' | 'warning' | 'outline' | 'obsidian'
