@@ -1,6 +1,6 @@
 {
   "name": "crml-ui-react",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "type": "module",
   "description": "Tactile Neubrutalism, Y2K Cyber Mecha & Streetwear Design System for React",
   "main": "./dist/crml-ui-react.umd.cjs",
@@ -15,7 +15,8 @@
     "./style.css": "./dist/style.css"
   },
   "files": [
-    "dist"
+    "dist",
+    "README.md"
   ],
   "scripts": {
     "dev": "vite",
