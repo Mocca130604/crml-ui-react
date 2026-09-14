@@ -287,6 +287,24 @@ export declare interface CrmlHypebeastDropBannerProps extends default_2.HTMLAttr
     className?: string;
 }
 
+export declare const CrmlIcon: default_2.FC<CrmlIconProps>;
+
+declare type CrmlIconName = 'bolt' | 'terminal' | 'coffee' | 'search' | 'settings' | 'sliders' | 'filter' | 'cross' | 'check' | 'plus' | 'minus' | 'trash' | 'edit' | 'copy' | 'share' | 'download' | 'upload' | 'refresh' | 'power' | 'maximize' | 'arrow-right' | 'arrow-left' | 'arrow-up' | 'arrow-down' | 'arrow-up-right' | 'chevron-right' | 'chevron-left' | 'chevron-up' | 'chevron-down' | 'menu' | 'grid' | 'compass' | 'anchor' | 'map-pin' | 'disk' | 'radar' | 'cpu' | 'chip' | 'database' | 'server' | 'cloud' | 'monitor' | 'smartphone' | 'gamepad' | 'cassette' | 'battery-charging' | 'battery-full' | 'wifi' | 'bluetooth' | 'speaker' | 'lock' | 'unlock' | 'key' | 'shield' | 'shield-alert' | 'eye' | 'eye-closed' | 'face-id' | 'fingerprint' | 'alert-circle' | 'alert-triangle' | 'info' | 'star' | 'sparkle' | 'sparkles' | 'heart' | 'flame' | 'skull' | 'target' | 'zap' | 'crown' | 'gem' | 'badge-check' | 'tag' | 'sticker' | 'flag' | 'sun' | 'moon' | 'cloud-rain' | 'calendar' | 'clock' | 'timer' | 'hourglass' | 'rocket' | 'planet' | 'comet' | 'chat' | 'message-square' | 'mail' | 'bell' | 'user' | 'users' | 'user-plus' | 'camera' | 'video' | 'music' | 'mic' | 'thumbs-up' | 'thumbs-down' | 'bookmark' | 'code' | 'git-branch' | 'git-commit' | 'git-pull-request' | 'terminal-box' | 'chart-bar' | 'chart-line' | 'pie-chart' | 'layers' | 'box' | 'folder' | 'file';
+
+export declare interface CrmlIconProps extends default_2.SVGAttributes<SVGElement> {
+    name: CrmlIconName;
+    size?: CrmlIconSize;
+    variant?: CrmlIconVariant;
+    strokeWidth?: number | string;
+    spin?: boolean;
+    title?: string;
+    className?: string;
+}
+
+declare type CrmlIconSize = 'xs' | 'sm' | 'md' | 'lg' | 'xl' | number;
+
+declare type CrmlIconVariant = 'current' | 'lime' | 'pink' | 'cyan' | 'yellow' | 'obsidian' | 'white' | 'ghost';
+
 export declare const CrmlInput: default_2.FC<CrmlInputProps>;
 
 export declare interface CrmlInputProps extends default_2.InputHTMLAttributes<HTMLInputElement> {
